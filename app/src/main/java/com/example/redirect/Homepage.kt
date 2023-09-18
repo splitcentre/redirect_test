@@ -12,10 +12,10 @@ class Homepage : AppCompatActivity() {
         setContentView(binding.root)
 
         val name = intent.getStringExtra(MainActivity.EXTRA_NAME)
-        val phoneNumber = intent.getStringExtra(MainActivity.EXTRA_PHONE_NUMBER) // Retrieve the phone number
+        val phoneNumber = intent.getStringExtra(MainActivity.EXTRA_PHONE_NUMBER)
 
-        binding.nama.text = "Name: $name"
-        binding.phone.text = "Phone Number: $phoneNumber"
+        binding.nama.text = "$name"
+        binding.phone.text = "$phoneNumber"
 
     }
 }

@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.redirectto.setOnClickListener {
             val name = binding.username.text.toString()
-            val phoneNumber = binding.nomerHp.text.toString() // Get the phone number
+            val phoneNumber = binding.nomerHp.text.toString()
 
             val intent = Intent(this@MainActivity, Homepage::class.java)
             intent.putExtra(EXTRA_NAME, name)
