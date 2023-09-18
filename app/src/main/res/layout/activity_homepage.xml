@@ -21,6 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
     
     <ImageView
+        android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:src="@drawable/aupalcon"
@@ -30,6 +31,41 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/image"
+        android:id="@+id/welcome"/>
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Phone Number"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/nama"
+        android:layout_marginTop="15dp"
+        android:id="@+id/number"/>
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number"
+        />
+
+
+
+
+
 
 
     

@@ -59,7 +59,7 @@
         android:textColorHint="@color/black"/>
 
     <EditText
-        android:id="@+id/nomer_hp"
+        android:id="@+id/nomerHp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/email"
@@ -80,7 +80,7 @@
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/nomer_hp"
+        android:layout_below="@id/nomerHp"
         android:layout_marginStart="18dp"
         android:layout_marginLeft="18dp"
         android:layout_marginTop="8dp"
