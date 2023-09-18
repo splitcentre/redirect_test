@@ -13,9 +13,11 @@ class Homepage : AppCompatActivity() {
 
         val name = intent.getStringExtra(MainActivity.EXTRA_NAME)
         val phoneNumber = intent.getStringExtra(MainActivity.EXTRA_PHONE_NUMBER)
+        val myemail=intent.getStringExtra(MainActivity.EXTRA_EMAIL)
 
         binding.nama.text = "$name"
         binding.phone.text = "$phoneNumber"
+        binding.mail.text="$myemail"
 
     }
 }
